@@ -1,7 +1,5 @@
 # Yascriptlang
 
-![Yascriptlang Logo](https://github.com/polyaXD/yascript-lang/blob/master/docs/logo.png?raw=true)
-
 **Y**et **A**nother **Script** **Lang**uage
 
 > Because everyone should have their own Lisp
@@ -52,7 +50,7 @@ To build and run this app locally you will need a few things:
 
 - Clone the repository
 ```bash
-git clone --depth=1 https://github.com/maxbarsukov/yascriptlang.git
+git clone --depth=1 https://github.com/polyaXD/yascript-lang.git
 ```
 - Install dependencies
 ```bash
