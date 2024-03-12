@@ -1,11 +1,6 @@
 # Yascriptlang
 
-[![Build Status](https://app.travis-ci.com/maxbarsukov/yascriptlang.svg?branch=master)](https://app.travis-ci.com/maxbarsukov/yascriptlang)
-[![npm version](https://badge.fury.io/js/yascriptlang.svg)](https://www.npmjs.com/package/yascriptlang)
-[![Downloads](https://img.shields.io/npm/dm/yascriptlang.svg)](https://www.npmjs.com/package/yascriptlang)
-[![Package Size](https://img.shields.io/bundlephobia/min/yascriptlang)](https://www.npmjs.com/package/yascriptlang)
-
-![Yascriptlang Logo](https://github.com/maxbarsukov/yascriptlang/blob/master/docs/logo.png?raw=true)
+![Yascriptlang Logo](https://github.com/polyaXD/yascript-lang/blob/master/docs/logo.png?raw=true)
 
 **Y**et **A**nother **Script** **Lang**uage
 
