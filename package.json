@@ -1,0 +1,62 @@
+{
+  "name": "yascriptlang",
+  "version": "1.1.0",
+  "description": "A simple scripting language inspired by Lisp",
+  "main": "./bin/yasjs.js",
+  "homepage": "https://github.com/maxbarsukov/yascriptlang.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxbarsukov/yascriptlang.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxbarsukov/yascriptlang/issues"
+  },
+  "author": {
+    "name": "Max Barsukov",
+    "email": "maximbarsukov@bk.ru"
+  },
+  "keywords": [
+    "language",
+    "programming language",
+    "lisp",
+    "interpreter",
+    "compiler",
+    "programming",
+    "javascript"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-mocha": "^9.0.0",
+    "husky": "^7.0.2",
+    "mocha": "^9.1.1",
+    "prettier": "^2.3.2"
+  },
+  "scripts": {
+    "lint": "eslint src/**/*.js; eslint test/**/*.js; eslint **/*.js",
+    "format": "eslint --fix src/**/*.js; eslint --fix test/**/*.js --fix; eslint --fix **/*.js",
+    "prettier": "prettier --write **/*.js",
+    "test": "./node_modules/mocha/bin/mocha --exit --colors test/**/*.js --timeout=10000"
+  },
+  "bin": {
+    "yas": "./bin/yas.js",
+    "yasc": "./bin/yasc.js",
+    "yasjs": "./bin/yasjs.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">= 10.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "uglify-js": "^3.14.5"
+  }
+}
