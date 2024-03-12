@@ -26,7 +26,7 @@ npm install -g yascriptlang
 
 ## Documentation
 
-The documentation is located in the [docs](https://github.com/maxbarsukov/yascriptlang/tree/master/docs) folder.
+The documentation is located in the [docs](https://github.com/polyaXD/yascript-lang/tree/main/docs) folder.
 
 ## Usage
 
@@ -75,7 +75,7 @@ node bin/yasjs.js input.yas
 
 ## Examples of code
 
-Here are some code examples. Go to there [docs](https://github.com/maxbarsukov/yascriptlang/tree/master/docs) to see more.
+Here are some code examples. Go to there [docs](https://github.com/polyaXD/yascript-lang/tree/main/docs) to see more.
 
 Comments:
 ```ruby
