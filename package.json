@@ -3,17 +3,17 @@
   "version": "1.1.0",
   "description": "A simple scripting language inspired by Lisp",
   "main": "./bin/yasjs.js",
-  "homepage": "https://github.com/maxbarsukov/yascriptlang.git",
+  "homepage": "https://github.com/polyaXD/yascript-lang/tree/main",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxbarsukov/yascriptlang.git"
+    "url": "https://github.com/polyaXD/yascript-lang/tree/main"
   },
   "bugs": {
-    "url": "https://github.com/maxbarsukov/yascriptlang/issues"
+    "url": "https://github.com/polyaxd/yascript-lang/issues"
   },
   "author": {
-    "name": "Max Barsukov",
-    "email": "maximbarsukov@bk.ru"
+    "name": "Polina Degtyareva",
+    "email": "polyaxd2005@mail.ru"
   },
   "keywords": [
     "language",
