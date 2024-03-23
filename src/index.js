@@ -1,8 +1,9 @@
 import UglifyJS from 'uglify-js';
 
 import Parser from './parser/Parser.js';
-import InputStream from './tokenizer/InputStream.js';
 import TokenStream from './tokenizer/TokenStream.js';
+import InputStream from './tokenizer/InputStream.js';
+
 
 import evaluate from './runtime/Evaluator.js';
 import Executor from './runtime/Executor.js';
